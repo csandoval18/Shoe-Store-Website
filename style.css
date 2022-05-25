@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "montserrat";
+}
+body {
+    /* background-color: #c9fff8; */
+    background-color: #A3D9F5;
+}
+header {
+    top: 0;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    height: 95px;
+    background-color: #222222;
+    position: sticky;
+}
+img {
+    width: 100%;
+    height: 100%;
+}
+nav {
+    flex: 1;
+    text-align: right;
+}
+.logo {
+    width: 110px;
+    height: 80px;
+}
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 60px;
+}
+.cart {
+    height: 46px;
+    width: 46px;
+    margin-right: 40px;
+    margin-bottom: 7px;
+}
+
+h1 {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+  color: #ffbe8a;
+}
+
+p {
+    color:#BFD9D9;
+}
+.container {
+    width: 100%;
+    height: fit-content;
+    margin: auto;
+}
+
+.row-1 {
+    background-color: #222222;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.row-1-text {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+    flex-basis: 50%;
+    min-width: 600px;
+}
+.bg-img {
+    width: 100%;
+    padding-top: 54%; /*makes picture dynamic pixel width/height of picture*/
+    background-repeat: no-repeat;
+    background-image: url('../images/image1.jpg');
+    background-size: 100%;
+    /* height: 1000px; */
+    border-bottom: 2px solid white;
+    margin-top: 1%;
+}
+.products-redirect {
+    margin-top: 4%;
+    margin-bottom: 4%;
+    text-align: center;
+}
+
+.btn {
+    cursor: pointer;
+    background: #222222;
+    color: white;
+    padding: 21px 41px;
+    font-size: 20px;
+}
+
+.btn:hover{
+    /* background: #98fbc9; */
+    background: #ffbe8a;
+    color: #222222;
+}
+
+.featured {
+    background-color: white;
+    width: 100%;
+    height: 200px;
+}
+
+.products {
+    width: 100%;
+    height: 1200px;
+    margin-top: 4%;
+    border: 5px solid white;
+}
+
+.product-block {
+    border: 2px solid #222222;   
+    width: 350px;
+    height: 350px;
+}
+
+footer {
+    background-color: #222222;
+    width: 100%;
+    height: 500px;
+    border-top: 3px solid white;
+}
